@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verde_profundo">#241A12</color>
+    <color name="verde_principal">#3A2A1D</color>
+    <color name="verde_acento">#B06A3B</color>
+    <color name="crema">#F5EAD6</color>
+    <color name="dorado">#E2B04A</color>
+    <color name="rojo_suave">#E57373</color>
+    <color name="negro_hud">#B3000000</color>
+    <color name="blanco">#FFFFFFFF</color>
+</resources>

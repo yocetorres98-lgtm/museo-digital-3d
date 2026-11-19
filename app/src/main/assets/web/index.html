@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>Museo Guía 3D</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+
+    <!-- Mundo 3D -->
+    <div id="lienzo"></div>
+
+    <!-- Viñeta de juego -->
+    <div id="vineta"></div>
+
+    <!-- Ubicación actual (plaza o sala) -->
+    <div id="ubicacion">Plaza central</div>
+
+    <!-- Acciones contextuales: entrar / salir / ver obra + índice de salas -->
+    <div id="hudAcciones">
+        <button id="btnSalas" class="botonHud secundario" type="button">🗂 Salas</button>
+        <button id="btnVerObra" class="botonHud oculto" type="button">Ver obra</button>
+        <button id="btnContexto" class="botonHud oculto" type="button">Entrar</button>
+    </div>
+
+    <!-- Visor de imagen ampliada -->
+    <div id="visor">
+        <div class="panelVisor">
+            <img id="visorImg" alt="Obra del museo">
+            <div class="pieVisor">
+                <div id="visorMunicipio"></div>
+                <div id="visorTitulo"></div>
+                <div id="visorLeyenda"></div>
+                <div class="barraVisor">
+                    <div id="visorContador">1 / 3</div>
+                    <button class="botonVisor" id="visorCerrar">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diálogo / narración de la guía -->
+    <div id="dialogo">
+        <div class="marcoDialogo">
+            <div class="retrato">🧭</div>
+            <div class="cuerpoDialogo">
+                <div id="dlgTitulo">Guía</div>
+                <p id="dlgTexto"></p>
+                <div id="dlgBotones"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Índice de las 13 salas (HUD) -->
+    <div id="directorio">
+        <div class="panelDirectorio">
+            <div class="cabeceraDirectorio">
+                <div id="tituloDirectorio">Índice de salas</div>
+                <button class="botonVisor" id="directorioCerrar" type="button">Cerrar</button>
+            </div>
+            <div id="listaSalas"></div>
+        </div>
+    </div>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/tour.js?v=20261118"></script>
+</body>
+</html>

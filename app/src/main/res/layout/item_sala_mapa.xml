@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tarjetaSala"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:layout_weight="1"
+    android:background="@drawable/mapa_tarjeta"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <ImageView
+        android:id="@+id/fotoSala"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="#111111"
+        android:contentDescription="@string/mapa_titulo"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nombreSala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/crema"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/barraSala"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"
+            android:max="3"
+            android:progress="0"
+            android:progressDrawable="@drawable/hud_progress_bg" />
+
+        <TextView
+            android:id="@+id/textoSala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:alpha="0.85"
+            android:textColor="@color/crema"
+            android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>

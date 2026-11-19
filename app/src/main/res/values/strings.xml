@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Museo Guía 3D</string>
+    <string name="hud_objetivo">Objetivo</string>
+    <string name="hud_progreso">Progreso</string>
+    <string name="btn_info">i</string>
+    <string name="btn_mapa">Mapa</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="loading">Cargando museo…</string>
+
+    <!-- Registro / acceso -->
+    <string name="museo_digital_3d">MUSEO DIGITAL 3D</string>
+    <string name="ruta_municipios">La Ruta de los Municipios</string>
+    <string name="registro_subtitulo">Crea tu cuenta y recorre las 12 salas con tu guía</string>
+    <string name="tab_registro">CREAR CUENTA</string>
+    <string name="tab_login">INICIAR SESIÓN</string>
+    <string name="campo_nombre">Nombre</string>
+    <string name="campo_correo">Correo electrónico</string>
+    <string name="campo_password">Contraseña</string>
+    <string name="campo_repetir">Repetir contraseña</string>
+    <string name="hint_nombre">Ana Martínez</string>
+    <string name="hint_correo">ana@correo.com</string>
+    <string name="hint_password">Exactamente 8 caracteres</string>
+    <string name="hint_repetir">Vuelve a escribirla</string>
+    <string name="btn_registrarme">REGISTRARME</string>
+    <string name="btn_entrar">ENTRAR AL MUSEO</string>
+    <string name="btn_invitado">Continuar como invitado</string>
+    <string name="btn_comenzar">COMENZAR RECORRIDO</string>
+    <string name="listo">Listo. ¡Comenzamos!</string>
+
+    <!-- Errores -->
+    <string name="err_nombre">Escribe tu nombre (mínimo 3 letras).</string>
+    <string name="err_correo">Escribe un correo válido, por ejemplo ana@correo.com</string>
+    <string name="err_password">La contraseña debe tener exactamente 8 caracteres.</string>
+    <string name="err_repetir">Las contraseñas no coinciden.</string>
+    <string name="err_ya_existe">Ya existe una cuenta con ese correo. Inicia sesión.</string>
+    <string name="err_no_existe">No hay ninguna cuenta con ese correo. Crea la tuya primero.</string>
+    <string name="err_credenciales">Correo o contraseña incorrectos.</string>
+    <string name="err_servidor">No se pudo conectar con el servidor. Inténtalo más tarde.</string>
+
+    <!-- Galería -->
+    <string name="galeria_titulo">Galería del recorrido</string>
+    <string name="galeria_pie">Cada sala tiene tres obras. Todas están dentro del museo.</string>
+    <string name="mun_amecameca">Amecameca</string>
+    <string name="mun_chalco">Chalco</string>
+    <string name="mun_ozumba">Ozumba</string>
+    <string name="mun_ayapango">Ayapango</string>
+    <string name="mun_nepantla">San Miguel Nepantla</string>
+    <string name="mun_ecatzingo">Ecatzingo</string>
+
+    <!-- Bienvenida en el museo -->
+    <string name="bienvenida">¡Hola, %1$s! Te espera la guía</string>
+    <string name="invitado">Invitado</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="salir_confirmacion">Tu recorrido se guardará. ¿Quieres cerrar sesión?</string>
+    <string name="volver_a_entrar">Volver a entrar</string>
+
+    <!-- Mapa interactivo -->
+    <string name="mapa_titulo">MAPA DE LA REGIÓN</string>
+    <string name="mapa_subtitulo">Elige una sala para entrar directo al museo</string>
+    <string name="mapa_cerrar">CERRAR</string>
+    <string name="mapa_entrar">ENTRAR A ESTA SALA</string>
+    <string name="mapa_foto_n">Foto %2$d de %3$d de %1$s</string>
+    <string name="mapa_ruta">RUTA DEL RECORRIDO</string>
+    <string name="mapa_pie">Toca una tarjeta para ver la ficha de la sala y entrar.</string>
+    <string name="mapa_avance">Visitaste %1$d de %2$d salas · %3$d de %4$d obras</string>
+    <string name="mapa_avance_0">Visitaste 0 de 12 salas · 0 de 36 obras</string>
+    <string name="mapa_arrastra">Toca un marcador para ver su ficha · arrástralo para ponerlo sobre el municipio</string>
+    <string name="btn_iniciar_recorrido">CONTINUAR RECORRIDO</string>
+
+    <!-- Menú principal -->
+    <string name="menu_titulo">MENÚ PRINCIPAL</string>
+    <string name="menu_subtitulo">Elige una opción para empezar</string>
+    <string name="menu_sesion">Sesión activa: %1$s</string>
+    <string name="menu_sin_sesion">Sin sesión activa · entra para registrar tus visitas</string>
+    <string name="menu_chip_sin">● Sin sesión</string>
+    <string name="menu_chip_sesion">● %1$s</string>
+    <string name="menu_btn_login">INICIAR SESIÓN</string>
+    <string name="menu_btn_admin">ADMINISTRADOR</string>
+    <string name="menu_btn_mapa">MAPA INTERACTIVO</string>
+    <string name="menu_btn_recorrido">RECORRIDO 3D</string>
+    <string name="menu_btn_cerrar">CERRAR SESIÓN</string>
+    <string name="menu_cerrar_confirm">¿Quieres cerrar la sesión actual?</string>
+    <string name="menu_sesion_cerrada">Sesión cerrada</string>
+    <string name="menu_requiere_sesion">Inicia sesión para acceder al museo.</string>
+    <string name="menu_pie">Museo Digital 3D · La Ruta de los Municipios</string>
+
+    <!-- Administrador -->
+    <string name="admin_titulo">ADMINISTRADOR</string>
+    <string name="admin_subtitulo">Acceso exclusivo del personal del museo</string>
+    <string name="admin_nombre">Nombre completo</string>
+    <string name="admin_correo">Correo electrónico</string>
+    <string name="admin_usuario">Usuario</string>
+    <string name="admin_clave">Contraseña</string>
+    <string name="admin_hint_nombre">Escribe tu nombre</string>
+    <string name="admin_hint_correo">tu@correo.com</string>
+    <string name="admin_hint_usuario">Elige un usuario</string>
+    <string name="admin_hint_clave">Elige una contraseña</string>
+    <string name="admin_entrar">ENTRAR</string>
+    <string name="admin_volver">VOLVER AL MENÚ</string>
+    <string name="admin_error">Correo o contraseña incorrectos.</string>
+    <string name="admin_registrar_titulo">CREAR CUENTA ADMIN</string>
+    <string name="admin_registrar_subtitulo">Aún no existe administrador. Regístrate una sola vez con tu nombre, correo y contraseña.</string>
+    <string name="admin_repetir">Repite la contraseña</string>
+    <string name="admin_hint_repetir">••••</string>
+    <string name="admin_crear">CREAR CUENTA</string>
+    <string name="admin_creada">Cuenta creada. Ya puedes iniciar sesión.</string>
+    <string name="admin_err_nombre">Escribe tu nombre (mínimo 3 caracteres).</string>
+    <string name="admin_err_correo">Escribe un correo válido.</string>
+    <string name="admin_err_clave">La contraseña debe tener exactamente 8 caracteres.</string>
+    <string name="admin_err_repetir">Las contraseñas no coinciden.</string>
+    <string name="admin_panel_titulo">PANEL DE ADMINISTRACIÓN</string>
+    <string name="admin_ingresos">PERSONAS QUE HAN INGRESADO AL MUSEO</string>
+    <string name="admin_hoy">Hoy: %1$d</string>
+    <string name="admin_reiniciar">REINICIAR CONTADOR</string>
+    <string name="admin_salir">CERRAR SESIÓN ADMIN</string>
+    <string name="admin_registro">REGISTRO DE INGRESOS (nombre · fecha)</string>
+    <string name="admin_sin_registros">Todavía no hay ingresos registrados.</string>
+    <string name="admin_reiniciar_confirm">Se borrará el contador y toda la bitácora de ingresos. ¿Continuar?</string>
+    <string name="admin_borrar_boton">BORRAR CUENTA DE ADMINISTRADOR</string>
+    <string name="admin_borrar_titulo">Borrar cuenta</string>
+    <string name="admin_borrar">BORRAR CUENTA</string>
+    <string name="admin_borrar_confirm">Se borrarán el nombre, el correo y la contraseña de esta cuenta. El contador y la bitácora de visitas se conservan. Después podrá registrar una cuenta nueva otra persona. ¿Continuar?</string>
+    <string name="admin_usuarios_titulo">PERSONAS REGISTRADAS EN LA BASE DE DATOS</string>
+    <string name="admin_usuarios_cargando">Consultando la base de datos…</string>
+    <string name="admin_usuarios_conteo">%1$d persona(s) en MySQL · %2$s</string>
+    <string name="admin_usuarios_vacio">Todavía no hay personas registradas en la base de datos.</string>
+    <string name="admin_usuarios_offline">Sin conexión con el servidor. Conecta el cable USB y ejecuta conectar_telefono_usb.bat.</string>
+</resources>

@@ -1,0 +1,13 @@
+# Gradle / Android
+.gradle/
+.idea/
+build/
+app/build/
+local.properties
+*.log
+
+# El APK publicado vive en docs/; no duplicarlo en la raíz
+/*.apk
+
+# Modelos 3D de trabajo (no necesarios para compilar)
+personajes/
