@@ -8,7 +8,7 @@ La página de descarga está publicada con GitHub Pages en:
 
 **https://yocetorres98-lgtm.github.io/museo-digital-3d/**
 
-El archivo instalable también está en `docs/MuseoDigital3D-con-base-de-datos.apk`.
+El archivo instalable también está en `docs/MuseoDigital3D-v1.apk`.
 
 ## Contenido del repositorio
 
